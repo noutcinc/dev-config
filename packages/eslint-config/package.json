@@ -1,0 +1,52 @@
+{
+  "name": "@noutc/eslint-config",
+  "version": "0.0.0",
+  "description": "Shared ESLint configuration for NOUTC projects",
+  "keywords": [
+    "NOUTC",
+    "dev",
+    "ESLint",
+    "config"
+  ],
+  "author": "No One Understands the Cloud Inc. <dev@noutc.com>",
+  "homepage": "https://github.com/No-One-Understands-the-Cloud-Inc/dev-config/tree/master/packages/eslint-config#readme",
+  "license": "MIT",
+  "main": "eslint-config.js",
+  "files": [
+    "CHANGELOG.md",
+    "README.md",
+    "eslint-config-react.js",
+    "eslint-config-stencil.js",
+    "eslint-config.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/No-One-Understands-the-Cloud-Inc/dev-config.git"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/No-One-Understands-the-Cloud-Inc/dev-config/issues"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.4"
+  },
+  "peerDependencies": {
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@stencil/eslint-plugin": "^0.2.1",
+    "@typescript-eslint/eslint-plugin": "^2.5.0",
+    "@typescript-eslint/parser": "^2.5.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.1.2",
+    "standard": "^14.3.1"
+  }
+}

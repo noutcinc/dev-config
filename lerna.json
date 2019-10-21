@@ -1,0 +1,21 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "command": {
+    "create": {
+      "homepage": "https://noutc.com",
+      "keywords": ["NOUTC"],
+      "license": "MIT",
+      "version": "0.0.0"
+    },
+    "version": {
+      "allowBranch": "master",
+      "conventionalCommits": true,
+      "exact": true,
+      "message": "chore(Release): Publish packages [skip ci]"
+    }
+  },
+  "ignoreChanges": ["**/__tests__/**", "**/tests/**", "**/*.md"]
+}

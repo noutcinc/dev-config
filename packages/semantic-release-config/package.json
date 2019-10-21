@@ -1,0 +1,40 @@
+{
+  "name": "@noutc/semantic-release-config",
+  "version": "0.0.0",
+  "description": "Shared semantic-release configuration for NOUTC projects",
+  "keywords": [
+    "NOUTC",
+    "dev",
+    "semantic release",
+    "config"
+  ],
+  "author": "No One Understands the Cloud Inc. <dev@noutc.com>",
+  "homepage": "https://github.com/No-One-Understands-the-Cloud-Inc/dev-config/tree/master/packages/semantic-release-config#readme",
+  "license": "MIT",
+  "main": "semantic-release-config.js",
+  "files": [
+    "CHANGELOG.md",
+    "README.md",
+    "semantic-release-config.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/No-One-Understands-the-Cloud-Inc/dev-config.git"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/No-One-Understands-the-Cloud-Inc/dev-config/issues"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/commit-analyzer": "^6.3.0",
+    "@semantic-release/git": "^7.0.16",
+    "@semantic-release/github": "^5.5.4",
+    "@semantic-release/npm": "^5.2.0",
+    "@semantic-release/release-notes-generator": "^7.3.0",
+    "semantic-release": "^15.13.27"
+  }
+}
