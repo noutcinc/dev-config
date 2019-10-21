@@ -1,0 +1,20 @@
+{
+  "name": "@noutc/dev-config-packages",
+  "version": "0.0.0",
+  "description": "Shared development configurations for NOUTC projects",
+  "main": "lerna.json",
+  "scripts": {
+    "postinstall": "npm run bootstrap",
+    "bootstrap": "npx lerna exec 'npm install --ignore-scripts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/No-One-Understands-the-Cloud-Inc/dev-config.git"
+  },
+  "author": "No One Understands the Cloud Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/No-One-Understands-the-Cloud-Inc/dev-config/issues"
+  },
+  "homepage": "https://github.com/No-One-Understands-the-Cloud-Inc/dev-config#readme"
+}
