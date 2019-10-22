@@ -33,7 +33,7 @@ You'll also have to make these `devDependencies` of your project e.g.
 npm install --save-dev typescript ts-node jest ts-jest @types/jest typedoc
 ```
 
-See [https://github.com/No-One-Understands-the-Cloud-Inc/dev-config/tree/master/packages/typescript-boilerplate](https://github.com/No-One-Understands-the-Cloud-Inc/dev-config/tree/master/packages/typescript-boilerplate) for a boilerplate example of a Typescript project using this `dev-config`.
+See [https://github.com/noutcinc/dev-config/tree/master/packages/typescript-boilerplate](https://github.com/noutcinc/dev-config/tree/master/packages/typescript-boilerplate) for a boilerplate example of a Typescript project using this `dev-config`.
 
 ## Tools
 

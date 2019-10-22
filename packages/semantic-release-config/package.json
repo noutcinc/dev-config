@@ -9,7 +9,7 @@
     "config"
   ],
   "author": "No One Understands the Cloud Inc. <dev@noutc.com>",
-  "homepage": "https://github.com/No-One-Understands-the-Cloud-Inc/dev-config/tree/master/packages/semantic-release-config#readme",
+  "homepage": "https://github.com/noutcinc/dev-config/tree/master/packages/semantic-release-config#readme",
   "license": "MIT",
   "main": "semantic-release-config.js",
   "files": [
@@ -22,11 +22,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/No-One-Understands-the-Cloud-Inc/dev-config.git"
+    "url": "git+https://github.com/noutcinc/dev-config.git"
   },
   "scripts": {},
   "bugs": {
-    "url": "https://github.com/No-One-Understands-the-Cloud-Inc/dev-config/issues"
+    "url": "https://github.com/noutcinc/dev-config/issues"
   },
   "dependencies": {
     "@semantic-release/changelog": "^3.0.4",

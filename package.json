@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/No-One-Understands-the-Cloud-Inc/dev-config.git"
+    "url": "git+https://github.com/noutcinc/dev-config.git"
   },
   "author": "No One Understands the Cloud Inc. <dev@noutc.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/No-One-Understands-the-Cloud-Inc/dev-config/issues"
+    "url": "https://github.com/noutcinc/dev-config/issues"
   },
-  "homepage": "https://github.com/No-One-Understands-the-Cloud-Inc/dev-config#readme",
+  "homepage": "https://github.com/noutcinc/dev-config#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^8.2.0",
     "@noutc/dev-config": "file:packages/dev-config",

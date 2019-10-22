@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Shared development configurations for NOUTC projects",
   "author": "No One Understands the Cloud Inc. <dev@noutc.com>",
-  "homepage": "https://github.com/No-One-Understands-the-Cloud-Inc/dev-config/tree/master/packages/dev-config#readme",
+  "homepage": "https://github.com/noutcinc/dev-config/tree/master/packages/dev-config#readme",
   "license": "MIT",
   "main": "init.js",
   "publishConfig": {
@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/No-One-Understands-the-Cloud-Inc/dev-config.git"
+    "url": "git+https://github.com/noutcinc/dev-config.git"
   },
   "scripts": {
     "postinstall": "echo \"⚙️  @noutc/dev-config:\nIf this is the first time you’re installing this package, or wish to upgrade your configuration, run: \n> node -e 'require(\"@noutc/dev-config\")'\""
   },
   "bugs": {
-    "url": "https://github.com/No-One-Understands-the-Cloud-Inc/dev-config/issues"
+    "url": "https://github.com/noutcinc/dev-config/issues"
   },
   "dependencies": {
     "@commitlint/config-conventional": "^8.2.0",

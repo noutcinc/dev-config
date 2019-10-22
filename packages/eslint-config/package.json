@@ -9,7 +9,7 @@
     "config"
   ],
   "author": "No One Understands the Cloud Inc. <dev@noutc.com>",
-  "homepage": "https://github.com/No-One-Understands-the-Cloud-Inc/dev-config/tree/master/packages/eslint-config#readme",
+  "homepage": "https://github.com/noutcinc/dev-config/tree/master/packages/eslint-config#readme",
   "license": "MIT",
   "main": "eslint-config.js",
   "files": [
@@ -24,11 +24,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/No-One-Understands-the-Cloud-Inc/dev-config.git"
+    "url": "git+https://github.com/noutcinc/dev-config.git"
   },
   "scripts": {},
   "bugs": {
-    "url": "https://github.com/No-One-Understands-the-Cloud-Inc/dev-config/issues"
+    "url": "https://github.com/noutcinc/dev-config/issues"
   },
   "devDependencies": {
     "prettier": "^1.18.2",
