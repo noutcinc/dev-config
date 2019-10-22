@@ -20,7 +20,7 @@ An opinionated setup for Typescript projects including tools such as `jest`, `ty
 Clone this project
 
 ```bash
-  git clone git@github.com:No-One-Understands-the-Cloud-Inc/dev-config.git
+git clone git@github.com/noutcinc/dev-config.git
 ```
 
 Install the root project dependencies
