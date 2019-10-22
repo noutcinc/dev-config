@@ -5,7 +5,7 @@
   "main": "lerna.json",
   "scripts": {
     "postinstall": "npm run bootstrap",
-    "bootstrap": "npx lerna exec 'npm install --ignore-scripts"
+    "bootstrap": "npx lerna exec 'npm install --ignore-scripts'"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,9 @@
   "homepage": "https://github.com/No-One-Understands-the-Cloud-Inc/dev-config#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^8.2.0",
+    "@noutc/dev-config": "file:packages/dev-config",
+    "@noutc/eslint-config": "file:packages/eslint-config",
+    "@noutc/semantic-release-config": "file:packages/semantic-release-config",
     "commitlint": "^8.2.0",
     "husky": "^3.0.9",
     "lerna": "^3.18.1",
@@ -27,5 +30,35 @@
   },
   "peerDependencies": {
     "prettier": "^1.18.2"
+  },
+  "prettier": "./packages/dev-config/prettier-config.json",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "scope-case": [
+        2,
+        "always",
+        "sentence-case"
+      ],
+      "subject-case": [
+        2,
+        "always",
+        "sentence-case"
+      ]
+    }
+  },
+  "eslintConfig": {
+    "extends": "@noutc/eslint-config"
+  },
+  "release": {
+    "extends": "@noutc/semantic-release-config"
   }
 }

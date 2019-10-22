@@ -1,0 +1,62 @@
+{
+  "name": "@noutc/dev-config",
+  "version": "0.0.0",
+  "description": "Shared development configurations for NOUTC projects",
+  "author": "No One Understands the Cloud Inc. <dev@noutc.com>",
+  "homepage": "https://github.com/No-One-Understands-the-Cloud-Inc/dev-config/tree/master/packages/dev-config#readme",
+  "license": "MIT",
+  "main": "init.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/No-One-Understands-the-Cloud-Inc/dev-config.git"
+  },
+  "scripts": {
+    "postinstall": "echo \"⚙️  @noutc/dev-config:\nIf this is the first time you’re installing this package, or wish to upgrade your configuration, run: \n> node -e 'require(\"@noutc/dev-config\")'\""
+  },
+  "bugs": {
+    "url": "https://github.com/No-One-Understands-the-Cloud-Inc/dev-config/issues"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^8.2.0",
+    "@noutc/eslint-config": "file:../eslint-config",
+    "@noutc/semantic-release-config": "file:../semantic-release-config",
+    "commitlint": "^8.2.0",
+    "husky": "^3.0.9",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^2.0.0",
+    "write-pkg": "^4.0.0"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "scope-case": [
+        2,
+        "always",
+        "sentence-case"
+      ],
+      "subject-case": [
+        2,
+        "always",
+        "sentence-case"
+      ]
+    }
+  },
+  "eslintConfig": {
+    "extends": "@noutc/eslint-config"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "prettier": "@noutc/dev-config/prettier-config.json",
+  "release": {
+    "extends": "@noutc/semantic-release-config"
+  }
+}
