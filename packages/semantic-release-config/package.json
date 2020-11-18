@@ -35,6 +35,6 @@
     "@semantic-release/github": "^5.5.4",
     "@semantic-release/npm": "^5.2.0",
     "@semantic-release/release-notes-generator": "^7.3.0",
-    "semantic-release": "^15.13.27"
+    "semantic-release": "^17.2.3"
   }
 }
